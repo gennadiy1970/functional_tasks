@@ -2,7 +2,8 @@ const MIN = 10;
 const MAX = 25;
 
 
-const result = Array.apply(null, new Array(MAX - MIN + 1)).map((e,i) =>  i + MIN)
+const result = Array.apply(null, new Array(MAX - MIN + 1))
+                    .map((e,i) =>  i + MIN)
 // const result = Array(MAX - MIN + 1).fill(0).map((e,i) =>  i + MIN)
 
 function isAddedIndex(src, dist) {

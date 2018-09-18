@@ -1,6 +1,6 @@
 const array = [1,2,3,5,8,13,21,34,55,89];
 const num = 10;
-const result = array.filter(e =>  e > num)
+const result = array.filter(e => e > num)
 
 function isAddedIndex(src, dist) {
     if(src.length !== dist.length) return false;

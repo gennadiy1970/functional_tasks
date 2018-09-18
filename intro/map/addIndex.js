@@ -1,6 +1,6 @@
 const array = [1,2,3,5,8,13,21,34,55,89];
 
-const result = array.map((e,i) =>  i)
+const result = array.map((e,i) => i)
 
 function isAddedIndex(src, dist) {
     if(src.length !== dist.length) return false;

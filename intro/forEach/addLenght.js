@@ -2,8 +2,8 @@ const array = [1,2,3,5,8,13,21,34,55,89];
 
 const result = array.map((e,i,a) => a.length)
 
-array.forEach(function (element, index, array) {
-    result[index] = array.length
+array.forEach(function (element, index, arr) {
+    result[index] = arr.length
 })
 
 function isAddedIndex(src, dist) {

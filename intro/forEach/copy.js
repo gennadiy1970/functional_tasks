@@ -6,7 +6,6 @@ array.forEach(function (element, index, array) {
     result[index] = element
 })
 
-
 function isEqual(src, dist) {
     if(src.length !== dist.length) return false;
     for(let i = 0; i < src.length; i += 1) {
@@ -14,7 +13,6 @@ function isEqual(src, dist) {
     }
     return true;
 }
-
 
 console.info( isEqual(array,result) ? 'equal' : 'no equal')
 console.log(result);

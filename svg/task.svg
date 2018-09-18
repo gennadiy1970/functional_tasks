@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="387.31924"
-     inkscape:cy="404.66254"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="353.64573"
+     inkscape:cy="604.41376"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -449,7 +449,7 @@
          y="56.609924"
          style="fill:#d40000;stroke-width:0.26458332"><tspan
            style="fill:#aa4400"
-           id="tspan4615">const</tspan><tspan
+           id="tspan4615">const </tspan><tspan
            style="fill:#008000"
            id="tspan4613">arr</tspan></tspan></text>
     <text
@@ -473,7 +473,9 @@
    style="fill:#d40000"
    id="tspan4629">elem</tspan> * <tspan
    style="fill:#d40000"
-   id="tspan5493">index</tspan></tspan></text>
+   id="tspan5493">index <tspan
+   style="fill:#000000"
+   id="tspan4588">+ 1</tspan>  </tspan></tspan></text>
     <text
        transform="scale(0.90771424,1.1016683)"
        id="text4645"

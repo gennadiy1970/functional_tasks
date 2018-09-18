@@ -2,8 +2,10 @@ const MIN = 10;
 const MAX = 25;
 
 
-// const result = Array.apply(null, new Array(MAX - MIN + 1))
-const result = Array(MAX - MIN + 1).fill(0)
+const result = Array.apply(null, new Array(MAX - MIN + 1))
+// const result = Array(MAX - MIN + 1).fill(undefined)
+
+// const arr = new Array(5); // [,,,,]
 
 result.forEach(function (element, index, array) {
     result[index] = index + MIN

@@ -3,7 +3,7 @@ const MIN = 10;
 const MAX = 50;
 const result = []
 
-array.forEach(function (element, index, array) {
+array.forEach(function (element) {
     if(element >= MIN && element <= MAX ) {
         result.push(element)
     }
